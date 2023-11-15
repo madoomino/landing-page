@@ -1,0 +1,112 @@
+/*HELPERS*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 20rem;
+}
+/*HELPERS*/
+
+/*GLOBAL STYLING*/
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+/*GLOBAL STYLING*/
+
+/*HEADER*/
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+/* || NAV || */
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rem;
+}
+
+.header .nav .nav_logo {
+  color: #e5e7eb;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.header .nav .nav_links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header .nav .nav_links .nav_link {
+  color: #e5e7eb;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+/* || NAV || */
+
+/* || HERO || */
+.header .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+/* __HERO TEXT__ */
+.header .hero .hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header .hero .hero_text h1 {
+  padding: 0;
+  color: #f9faf8;
+  font-size: 4.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.header .hero .hero_text p {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.header .hero .hero_text .sign_up {
+  all: unset;
+  cursor: pointer;
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+/* __HERO TEXT__ */
+
+/* __HERO IMAGE__ */
+.header .hero .hero_img {
+  background-color: #8a8a8a;
+  font-size: 1.4rem;
+  width: 55%;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* __HERO IMAGE__ */
+/* || HERO || */
+/*HEADER*/
