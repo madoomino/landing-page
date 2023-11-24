@@ -39,6 +39,53 @@
         </section>
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <section class="cards_sect">
+        <h2>Some random information.</h2>
+        <ul class="cards_ul">
+          <li class="card">
+            <div class="square"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="card">
+            <div class="square"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="card">
+            <div class="square"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="card">
+            <div class="square"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="qoute">
+        <div class="qoute_wrapper">
+          <p class="qoute_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+            culpa facere, reiciendis dolores minus.
+          </p>
+          <p class="author">- Hamada, King of Koshary</p>
+        </div>
+      </section>
+      <section class="signup">
+        <div class="text">
+          <h2>Call to action! It's time!</h2>
+          <p>
+            Sign up for out product by clicking that button righr over there!
+          </p>
+        </div>
+        <button class="signup_btn">Sign up</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Copyright &copy; Mado Mino</p>
+    </footer>
+    <script>
+      const year = new Date().getFullYear();
+      document.querySelector("footer p").innerHTML += " " + year;
+    </script>
   </body>
 </html>
